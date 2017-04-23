@@ -1,0 +1,340 @@
+body,ul,li,img{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu{
+    width: 100%;
+    overflow: hidden;
+}
+
+.header,
+.add{
+    width: 100%;
+    height: 1.125rem;
+    background-color: #e6e6e6;
+    overflow: hidden;
+}
+
+.change{
+    width: 2.21875rem;
+    height: 100%;
+    display: inline-block;
+}
+
+.delete{
+    position: relative;
+    width: 4.5rem;
+    height: 100%;
+    display: inline-block;
+    float: right;
+}
+
+.change span,
+.delete span,
+.add span{
+    height: 100%;
+    padding-left: 0.3125rem;
+    float: left;
+    text-align: center;
+    line-height: 1.125rem; 
+    font-size: 0.46875rem;
+    color: #9a9a9a;
+}
+
+.change span:hover,
+.delete span:hover,
+.icon:hover{
+    color: #c20111;
+}
+
+.icon{
+    width: 0.46875rem;
+    height: 0.46875rem;
+    -webkit-transform:rotate(45deg);
+    border: 0.078125rem #c8c8c8 solid;
+    cursor: pointer;
+}
+
+.up{
+    position: absolute;
+    top: 0.48rem;
+    right: 0.6rem;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.down{
+    border-left: 0;
+    border-top: 0;
+    margin-top: 0.25625rem;
+    margin-left: 0.46rem;
+}
+
+.classify{
+    width: 100%;
+    overflow: hidden;
+}
+
+.classifyList,
+.moreList{
+    height: 100%;
+    width: 100%;
+    padding: 0.5rem 0;
+    float: left;
+    box-sizing: border-box;
+}
+
+.word{
+    display: inline-block;
+    height: 0.7rem;
+    width: 2.1rem;
+    line-height: 0.7rem;
+    border-right: 0.015625rem #d4d4d4 solid;
+}
+
+.classifyList:first-child{
+    padding-left: 0.7rem;    
+}
+
+.classifyList:last-child{
+    padding-right: 0.7rem;    
+}
+
+.item{
+    height: 28%;
+    padding: 0.3125rem 0;
+    float: left;
+    text-align: center;
+    line-height: 1rem;
+    border-bottom: 0.015625rem #d4d4d4 solid;
+}
+
+.classifyList li a{
+    display: block;
+    width: 100%;
+    font-size: 0.46rem;
+    color: #5a5a5a;
+}
+
+.classifyList li a:hover{
+    color: #c20111;
+}
+
+.more{
+    width: 100%;
+}
+
+.moreItem{
+    width: 20%;
+    height: 1.125rem;
+    margin: 0 auto;
+    margin: 0.3rem 0.2rem;
+    float: left;
+    font-size: 0.45rem;
+    line-height: 1.125rem;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-radius: 0.08rem;
+    border: 0.03rem #c8c8c8 solid;
+}
+
+.moreList:first-child{
+    padding-left: 0.2rem;    
+}
+
+.moreList:last-child{
+    padding-right: 0.2rem;    
+}
+
+.menu{
+    width: 100%;
+    overflow: hidden;
+}
+
+.nav{
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+}
+
+.nav{
+    width: 100%;
+}
+
+.navList{
+    width: 100%;
+    background-color: #e6e6e6;
+    overflow: hidden;
+}
+            
+.navItem{
+    width: 16%;
+    float: left;  
+    text-align: center;  
+}
+
+.arrow{
+    display: block;
+    width: 15%;
+    height: 100%;
+    float: right;
+    background-color: #e6e6e6; 
+}
+
+.navItem span{
+    display: block;
+    font-size: 0.5rem;
+    padding: 0.3rem 0.2rem;
+}
+
+.on,
+.off{
+    width: 100%;
+    height: 0.078125rem;
+}
+
+.on{        
+    background-color: #be0201;
+}
+
+.bannerwrapper{
+    width: 100%;
+    overflow: hidden;
+}
+
+.bannerList{
+    overflow: hidden;
+    height: 6.68rem;
+    transition: 0.3s;
+}
+
+.bannerItem{
+    float: left;
+}
+
+.bannerItem img{
+    width: 10rem;
+    height: 6.68rem;
+    vertical-align:top;
+}
+
+.info{
+    overflow: hidden;
+    width: 100%;
+    background-color: #dbdbdc;
+}
+
+.tip{
+    position: relative;
+    display: inline-block;
+    height: 1.0rem;
+    width: 6rem;
+}
+
+.images{
+    position: absolute;
+    top: 0.1rem;
+    left: 0.5rem;
+    width: 1.5rem;
+    text-align: center;
+}
+
+.image{
+    display: block;
+    font-size: 0.4575rem;
+    text-align: center;
+    line-height: 0.8rem;
+    background-color: #4c86c6;
+    color: #cacfd5;
+}
+
+.tit{
+    height: 100%;
+    float: right;
+    width: 3.5rem;
+    line-height: 1rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 0.6rem;
+}
+
+.buttons{
+    overflow: hidden;
+    line-height: 1rem;
+    height: 100%;
+    float: right;
+}
+
+.btn{
+    display: block;
+    margin: 0.4rem 0.2rem 0 0;
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 0.3rem;
+    float: right;
+    background-color: #9c9c9d;
+}
+
+.on{
+    background-color: #515152;
+}
+
+.content{
+    padding: 0.25rem 0.3rem;
+}
+
+.contentItem{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 2.25rem;
+    padding: 0.3rem 0;
+    border-bottom: 2px #e6e6e6 solid;
+}
+
+.content li:last-child{
+    border: 0;
+}
+
+.title{
+    text-overflow: ellipsis;
+    font-size: 0.6rem;
+}
+
+.contentItem img{
+    width: 3.21875rem;
+    height: 100%;
+    float: left;
+}
+
+.title,
+.description{
+    width: 5.875rem;
+    float: right; 
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.title{
+    height: 0.875rem;
+    color: #111111;
+    white-space:nowrap;
+    font-weight: bold;
+}
+
+.description{
+    height: 1.375rem;
+    color: #808080;
+    font-size: 0.5rem;
+}
+
+
+
